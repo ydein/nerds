@@ -115,6 +115,7 @@ header h1 {
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
 	padding-top: 50px;
+	background: #eeeeee;
 }
 .logo-link:hover,
 .logo-link:active {
@@ -199,6 +200,7 @@ ul.site-nav-list {
 }
 .slider {
 	position: relative;
+	min-width: 1200px;
 	background-color: #eeeeee;
 	margin-bottom: 80px;
 }
@@ -495,6 +497,9 @@ a.client-link:focus {
 }
 a.client-link:active {
 	opacity: 0.1;
+}
+footer {
+	min-width: 1200px;
 }
 .contacts {
 	position: relative;
@@ -855,6 +860,7 @@ p.textarea {
 	        justify-content: space-between;
 }
 .inner-page main {
+	min-width: 1200px;
 	margin-bottom: 58px;
 }
 h2.catalog-heading {
